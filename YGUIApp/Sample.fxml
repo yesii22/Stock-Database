@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SampleController">
+   <children>
+      <TextField fx:id="search_field" layoutX="184.0" layoutY="24.0" prefHeight="26.0" prefWidth="306.0" promptText="Enter user name" />
+      <Button layoutX="506.0" layoutY="25.0" mnemonicParsing="false" onAction="#getValue" text="Search" />
+      <TableView fx:id="portfolio_table" layoutX="20.0" layoutY="72.0" prefHeight="456.0" prefWidth="760.0" stylesheets="@application.css">
+        <columns>
+          <TableColumn fx:id="col_user_full_name" prefWidth="181.60003662109375" text="User Full Name" />
+            <TableColumn fx:id="col_stock_symbol" prefWidth="100.79998779296875" text="Stock Symbol" />
+            <TableColumn fx:id="col_stock_name" prefWidth="128.0" text="Stock Name" />
+            <TableColumn fx:id="col_stock_price" prefWidth="112.79998779296875" text="Stock Price" />
+            <TableColumn fx:id="col_ordered_quantity" prefWidth="120.79986572265625" text="Ordered Quantity" />
+            <TableColumn fx:id="col_order_date" prefWidth="112.8001708984375" text="Order Date" />
+        </columns>
+      </TableView>
+   </children>
+   <rotationAxis>
+      <Point3D />
+   </rotationAxis>
+</AnchorPane>
