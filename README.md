@@ -45,6 +45,12 @@ COMPANY: CompanyID (Primary Key), CompanyStockSymbol, CompanyName, CompanyAddres
 ### Company
 ![image](screenshots/order-table.png)
 
+## User Portfolio Search GUI
+* Created using JavaFX, Scene Builder, and MySQL Connector/J.
+* User enters the full name of a person that has a stock portfolio.
+* After clicking the search button, the person's stock information is displayed.
+* If user enters a name that is not in the USER database, then the message "No content in table" appears on the screen. 
 
+![image](screenshots/search-user-gui)
 
 
