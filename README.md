@@ -29,3 +29,22 @@ COMPANY: CompanyID (Primary Key), CompanyStockSymbol, CompanyName, CompanyAddres
 * STOCK has a one-to-many (1:M) relationship with MADEORDER because there can be many orders for a stock type, but there can only be one stock type for each order.
 * STOCK has a one-to-many (1:M) relationship with COMPANY because a certain stock belongs to one company. A stock cannot exist without a company. 
 
+## ER Diagram
+![image](screenshots/ER-diagram.png)
+
+## Data Tables
+### User
+![image](screenshots/user-table.png)
+
+### Order
+![image](screenshots/order-table.png)
+
+### Stock
+![image](screenshots/order-table.png)
+
+### Company
+![image](screenshots/order-table.png)
+
+
+
+
