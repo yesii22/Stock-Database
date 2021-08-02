@@ -1,7 +1,7 @@
 # Stock Database
 Created by: Yesenia Galindo, Saad Khan, Arjaey Bautista
 
-We built a stock database where users can purchase any stock of their choice, as long as they have the available balance for it. The user can view the stock prices for each company and decide what company to invest in. The user can also search for a certain price range per stock that best fits their budget. 
+My team and I built a stock database where users can purchase any stock of their choice, as long as they have the available balance for it. The user can view the stock prices for each company and decide what company to invest in. The user can also search for a certain price range per stock that best fits their budget. 
 
 The Database stores the user's purchases and the user can keep track of how much money they've invested as well as the current prices of owned stocks. The database also stores the date of purchase so that the user can view all seperate purchases. 
 
