@@ -51,6 +51,6 @@ COMPANY: CompanyID (Primary Key), CompanyStockSymbol, CompanyName, CompanyAddres
 * After clicking the search button, the person's stock information is displayed.
 * If user enters a name that is not in the USER database, then the message "No content in table" appears on the screen. 
 
-![image](screenshots/search-user-gui)
+![image](screenshots/search-user-gui.png)
 
 
